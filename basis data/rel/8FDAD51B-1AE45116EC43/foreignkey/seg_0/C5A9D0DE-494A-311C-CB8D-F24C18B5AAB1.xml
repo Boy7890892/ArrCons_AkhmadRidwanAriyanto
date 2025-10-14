@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5A9D0DE-494A-311C-CB8D-F24C18B5AAB1" containerWithKeyObject="F9C52DA6-41EB-E5FE-AD58-3DFE9E531F1D" localFKIndex="21D313D8-4E30-F0EC-2E56-4AD5C264C514" name="Kunjungan_Tempat_mancing_FK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:03:18 UTC</createdTime>
+<generatorID>F009A42A-45AD-AF97-4534-F72003AF0C1C</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<referredTableLongName>Tempat_mancing</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>062C06E6-6D78-C56C-4416-19B7746C3A5C</referredTableID>
+<keyObject>352C61B1-BB83-2664-B463-6EC9B07C69AE</keyObject>
+<referredKeyID>352C61B1-BB83-2664-B463-6EC9B07C69AE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_tempat_mancing</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

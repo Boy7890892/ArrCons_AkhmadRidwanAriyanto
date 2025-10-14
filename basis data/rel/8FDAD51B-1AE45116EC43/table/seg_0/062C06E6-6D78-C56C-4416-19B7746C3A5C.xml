@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="062C06E6-6D78-C56C-4416-19B7746C3A5C" name="Tempat_mancing">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<generatorID>C02A3813-A9B1-0E54-B280-5B2B88FB7886</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_tempat_mancing" id="9E82A876-E5FB-D4DC-2EE8-0869ACDC40C6">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<generatorID>162044D2-1F78-FC40-2CE7-46B5513AD3DB</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_tempat" id="09E25A3C-464C-4516-858A-FA774264E67B">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<generatorID>3596CD76-A438-B2B7-971E-9FEE6318E6BD</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokasi" id="E358D71D-52CD-2C91-5FC6-0C72562F08A5">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<generatorID>833B3C8E-E10F-2D55-6624-FC4D872226F6</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pemilik" id="788D3F6E-26D2-F685-4A3B-9CFB0B671DD5">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<generatorID>6DFFD2B8-1D21-31B3-03D9-0A68A696F94F</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tarif" id="E9D801A4-FF7C-7252-348E-3DC470AB3637">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<generatorID>8AD6B2E1-664B-77A0-CAD5-32E4487ED9AD</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mahasiswa_Mahasiswa_ID" id="53BE379D-EFB5-F853-5989-D4B6101BD9EC">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="352C61B1-BB83-2664-B463-6EC9B07C69AE" name="Tempat_mancing_PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<generatorID>A73CE480-AEFE-EA01-6431-C33B0F5C41C9</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E82A876-E5FB-D4DC-2EE8-0869ACDC40C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87A3C20A-936A-2792-F1E4-D6A5D75AC1C3" name="Tempat_mancing_lokasi_UN">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:22:00 UTC</createdTime>
+<generatorID>7F28B6BC-BB3F-7652-9974-92E79F3C8C62</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E358D71D-52CD-2C91-5FC6-0C72562F08A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

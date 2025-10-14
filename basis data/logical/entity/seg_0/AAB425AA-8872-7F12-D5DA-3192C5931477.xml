@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAB425AA-8872-7F12-D5DA-3192C5931477" name="Kunjungan">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:53:40 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kunjungan" id="164084D1-C368-6028-3398-0071A863EE92">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:53:50 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waktu" id="6CD03C10-E9A4-DA74-8B81-A870FA0CB7D4">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:53:59 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nim" id="D7CEE05B-57E0-B91F-8CEB-6137355C0F2C">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:54:30 UTC</createdTime>
+<generatorID>AC327D8A-244E-39C0-66A5-5E95A19DA0EA</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<referedAttribute>B14F0343-AAB4-05CC-E9FD-5FF8926C97C2</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_tempat_mancing" id="8815FEA8-CF41-4026-45D1-23402F6A4F81">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:55:46 UTC</createdTime>
+<generatorID>F009A42A-45AD-AF97-4534-F72003AF0C1C</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<referedAttribute>162044D2-1F78-FC40-2CE7-46B5513AD3DB</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fasilitas" id="4F794548-68D6-9EDB-2842-E946A9C20B79">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:36:35 UTC</createdTime>
+<generatorID>95252CFD-0BF5-C132-2319-61EA37A61176</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<referedAttribute>D2F3B0C8-3037-65E9-16DB-488F88771314</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lokasi" id="2F1DCE8D-0AED-7E31-BA98-E87E5F7CE467">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:37:04 UTC</createdTime>
+<generatorID>7B0C7779-762B-3ACB-3CEA-FD7C473F1188</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<referedAttribute>8F931B1A-7042-9497-7B86-7B5AC61F9E8B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pemandangan" id="054A900A-25B8-B3D1-72FB-5A263B22D1F1">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:37:19 UTC</createdTime>
+<generatorID>F3065432-2E20-31CC-EE8F-7E25531275DC</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<referedAttribute>C80BB9CF-2624-52DE-3426-FDAC1C497E7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9E81285-1196-DCD0-8D5D-CE1A41C6D66E" name="Kunjungan PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:53:58 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>164084D1-C368-6028-3398-0071A863EE92</attributeRef>
+<attributeRef>D7CEE05B-57E0-B91F-8CEB-6137355C0F2C</attributeRef>
+<attributeRef>8815FEA8-CF41-4026-45D1-23402F6A4F81</attributeRef>
+<attributeRef>4F794548-68D6-9EDB-2842-E946A9C20B79</attributeRef>
+<attributeRef>2F1DCE8D-0AED-7E31-BA98-E87E5F7CE467</attributeRef>
+<attributeRef>054A900A-25B8-B3D1-72FB-5A263B22D1F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

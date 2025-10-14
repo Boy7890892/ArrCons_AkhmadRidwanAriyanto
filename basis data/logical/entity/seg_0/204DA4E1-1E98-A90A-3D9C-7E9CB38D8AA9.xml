@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="204DA4E1-1E98-A90A-3D9C-7E9CB38D8AA9" name="Pemandangan">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:27:46 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pemandangan" id="C80BB9CF-2624-52DE-3426-FDAC1C497E7C">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:28:08 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kondisi_pemandangan" id="7E0EC57D-01EA-9361-5DFE-6C96623B45A5">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:28:34 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nilai_pemandangan" id="7EDB30D0-BCDF-C98A-2A69-9E106D393FC1">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:28:59 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65E9666B-B75F-C46F-F7D7-48F3CC482871" name="Pemandangan PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:28:32 UTC</createdTime>
+<ownerDesignName>basis data</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8FDAD51B-5990-E1F7-5EBF-1AE45116EC43" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C80BB9CF-2624-52DE-3426-FDAC1C497E7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

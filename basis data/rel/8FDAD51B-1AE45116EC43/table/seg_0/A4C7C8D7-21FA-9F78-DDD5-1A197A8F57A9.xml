@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4C7C8D7-21FA-9F78-DDD5-1A197A8F57A9" name="Fasilitas">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>04D564E7-86B5-AB1F-7586-BC9682F67AE6</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_fasilitas" id="D9B649BB-EC64-51E8-2DA6-EDE973A7644C">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>D2F3B0C8-3037-65E9-16DB-488F88771314</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kondisi_fasilitas" id="9D909BA7-A2BF-6E84-3494-F5FF24F19CBE">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>7EB94235-23B0-6E66-3CDF-85A9B52D8398</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nilai_fasilitas" id="C0CAC2CC-DE72-A7EF-7A15-6949A61FD2DD">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>B1AC2818-D1E3-F7D7-F493-CC494E6A9569</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70EA97AF-11C8-705C-3CD6-8887CAF7BF4C" name="Fasilitas_PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>AF7FCA5D-B1F6-7929-1548-51715FAF0121</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9B649BB-EC64-51E8-2DA6-EDE973A7644C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

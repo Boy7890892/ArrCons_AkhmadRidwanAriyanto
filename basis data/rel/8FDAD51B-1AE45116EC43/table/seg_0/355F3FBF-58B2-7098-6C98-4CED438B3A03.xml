@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="355F3FBF-58B2-7098-6C98-4CED438B3A03" name="Pemandangan">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>204DA4E1-1E98-A90A-3D9C-7E9CB38D8AA9</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pemandangan" id="786FA77E-076F-8D4C-8843-282DF5C8A8FA">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>C80BB9CF-2624-52DE-3426-FDAC1C497E7C</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kondisi_pemandangan" id="ACCE306A-906B-6CE0-46CF-B10897F985E5">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>7E0EC57D-01EA-9361-5DFE-6C96623B45A5</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nilai_pemandangan" id="44BAB88A-58F8-C350-7077-D93009304E26">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>7EDB30D0-BCDF-C98A-2A69-9E106D393FC1</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08F20261-82E7-834F-F0C6-C8FFEFC9EB6F" name="Pemandangan_PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 05:38:35 UTC</createdTime>
+<generatorID>65E9666B-B75F-C46F-F7D7-48F3CC482871</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="786FA77E-076F-8D4C-8843-282DF5C8A8FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

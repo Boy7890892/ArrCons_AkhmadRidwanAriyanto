@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A75DEDE3-7642-D273-1375-20C7ECFC5146" containerWithKeyObject="B4CA8ED6-17F5-A677-4B61-A6CB507057E2" localFKIndex="8647B5C1-2B1E-F2A9-6D50-24594E760038" name="Mahasiswa_gender_FK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-14 04:35:16 UTC</createdTime>
+<generatorID>DD883FB6-EA9B-AF29-10D7-BC3432D4CE08</generatorID>
+<ownerDesignName>basis data</ownerDesignName>
+<referredTableLongName>gender</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>38F064AE-0339-470F-27BC-6FC867B0022D</referredTableID>
+<keyObject>45B1FA9B-AF94-E94D-D642-F3FAC5A51E7F</keyObject>
+<referredKeyID>45B1FA9B-AF94-E94D-D642-F3FAC5A51E7F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_gender</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
