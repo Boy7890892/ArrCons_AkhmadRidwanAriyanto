@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="518465B8-4F10-E580-0F68-0B16D6FEA588" name="Kunjungan">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>265BAA74-62C9-14A1-8125-100768F86AF3</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Kunjungan" id="223E906D-F0BD-B2AF-4A32-ABF89CCCF6CA">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>38AC2A7C-0FEE-A454-E5DB-B43F48FFFEA9</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Waktu_Kunjungan" id="B4E9F793-F815-F0D3-8E0A-AE238DE678BD">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>5FCB47BA-226A-2535-066C-61068E9A51B7</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="308CF4B1-ACD4-5D18-4837-69C7BA8921E8" name="Kunjungan_PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>1D61B6F1-E79D-95DD-AA55-6FCEFA7C72A4</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="223E906D-F0BD-B2AF-4A32-ABF89CCCF6CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1D087A1-086E-212D-91E2-1B1732E3229F" name="Detail Barang">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:51:32 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Barang" id="2B2B8CD5-8633-9791-CD5E-91125931D0A3">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:52:03 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kategori_Barang" id="2B882DA6-8BD2-9A09-1E80-AE11D56346DD">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:52:19 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jumlah_Barang" id="12654102-C6B6-823F-845C-54BF42F8A672">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:52:45 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Transaksi" id="A9B0C601-F3D3-C1AE-5C59-09C64BF3CED4">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:57:37 UTC</createdTime>
+<generatorID>DD5E5841-CFF5-8410-0DF3-14FCCEB345E8</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<referedAttribute>B127E410-99F0-8B0B-C83E-0964ACA3CFBD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FB49278-F454-0375-B085-F97CEF3C1951" name="Detail Barang PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:52:18 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B2B8CD5-8633-9791-CD5E-91125931D0A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

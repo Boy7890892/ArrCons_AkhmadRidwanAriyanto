@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92847F9E-75F1-0D86-1C96-3559C39943F5" name="Mahasiswa">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>986DBB93-8B8F-B275-6B4E-36EC5CA65700</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nim" id="4E940E8C-8892-E601-10A0-5E2FE49BF30D">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>A2C1AE22-7E0E-5DF0-4974-5D7974293AB9</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="81F7CAB2-38A7-A819-5738-157165CCBD1C">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>788BBCC9-E730-2FBE-AA6D-33A817C00CF5</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat" id="F26EAE6F-3651-E571-2904-B88BCA6FE3F0">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>82AA567E-D686-B59F-0DEB-5A83571C9EFA</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_lahir" id="156578FB-3B57-7024-7FF1-63D1AB0A26FF">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>4B4875E9-2CD8-2216-3736-3AAE2EF0376B</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tempat_lahir" id="85C917EA-DB07-B571-FBDF-8C05243F5EE5">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>7D41F7EB-F47B-E67E-8DB3-74923B64E4F5</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_Kontak" id="5498585F-1FC3-4416-CE31-3C887EEDE91E">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>F0AA902B-22F0-BE11-A4B6-CF40E043C128</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="9923CE57-55A1-AE83-3F49-04EBF2C86725">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>8EAF5982-A566-EF33-B34C-B533EF7505F8</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender_Id_Gender" id="C86D4255-2FC3-B81C-F2E4-6AC332B5A22C">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>BCD83733-CAB0-7474-B8FE-9CE4F7DFE2DA</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F60C6155-6FF7-1404-0212-29B6EB4CC8D8" referredColumn="16E4361B-F90C-7FB3-32E4-BC3363C81381"/>
+</associations>
+</Column>
+<Column name="Kunjungan_Id_Kunjungan" id="305246CF-84F5-97EC-F390-D098D097EFAB">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>33EE3BC2-354E-1159-4CA2-8B56F24D2272</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6305D71E-D481-BAD8-6D65-FC8002FAA995" referredColumn="223E906D-F0BD-B2AF-4A32-ABF89CCCF6CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ABE35EA-D4BF-8433-DD48-05D78A7D7E06" name="Mahasiswa_PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>3F2F0B4D-D540-81D0-8F25-38192FBDCEDF</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E940E8C-8892-E601-10A0-5E2FE49BF30D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C78EF637-CAAB-F55A-06CA-F272A169660B" name="Mahasiswa_No_Kontak_UN">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 06:03:34 UTC</createdTime>
+<generatorID>AC0CC2F8-DFC5-2DA1-978B-35B9F551044E</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5498585F-1FC3-4416-CE31-3C887EEDE91E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E6E586-A89D-1E33-C6B4-234B1C55825B" name="Mahasiswa_Email_UN">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 06:03:34 UTC</createdTime>
+<generatorID>F207FD3D-CD90-DDBA-E33E-91794F65175F</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9923CE57-55A1-AE83-3F49-04EBF2C86725"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCF178D2-B1C8-305C-196A-14C63D93FC0D" name="Mahasiswa_Gender_FK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>592154FD-7895-32E2-1A17-82074F9BEDE3</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C86D4255-2FC3-B81C-F2E4-6AC332B5A22C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81097563-A0C2-090A-11C9-2F82185979B5" name="Mahasiswa_Kunjungan_FK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>2C20A94E-FC21-DF77-A09D-624980F8D8E8</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="305246CF-84F5-97EC-F390-D098D097EFAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

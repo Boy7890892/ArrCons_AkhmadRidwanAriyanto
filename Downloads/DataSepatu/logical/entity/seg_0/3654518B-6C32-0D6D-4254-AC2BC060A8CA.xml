@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3654518B-6C32-0D6D-4254-AC2BC060A8CA" name="Karyawan">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:40:11 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Karyawan" id="FD22C302-C4E5-532C-30DE-55553A1D6BE2">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:40:41 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Username" id="CA42DD6B-7957-DCD6-535C-DC97D280ADE3">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:40:58 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pasword" id="93CBAF08-16A4-6ABB-2B9C-7B06AC9E5704">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:41:29 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6591022-F02C-B354-49DA-ED4D422BCA02" name="Karyawan PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:40:56 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD22C302-C4E5-532C-30DE-55553A1D6BE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

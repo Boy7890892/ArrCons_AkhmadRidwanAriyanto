@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A1D579A-4AC5-2490-0036-7EA790E4AC6F" name="Gender">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>60D07C46-064C-CED0-7CA0-E32E749C080D</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Gender" id="16E4361B-F90C-7FB3-32E4-BC3363C81381">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>32C90381-42C1-C169-6CB1-FBAFBF6CFBF6</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jenis_Kelamin" id="4A9628BD-E9F4-6E1F-13EA-9DDF9B010157">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>D1B208F3-0190-1CCB-D38B-1A10149F7C11</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="604116C5-1C2A-8A82-B226-B69C91A034A9" name="Gender_PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:59:15 UTC</createdTime>
+<generatorID>53C24FFD-1143-2900-3743-FC58FB85EB22</generatorID>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16E4361B-F90C-7FB3-32E4-BC3363C81381"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

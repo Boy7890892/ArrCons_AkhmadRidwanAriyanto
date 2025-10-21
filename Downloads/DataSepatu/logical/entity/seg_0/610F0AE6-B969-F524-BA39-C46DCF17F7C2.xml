@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="610F0AE6-B969-F524-BA39-C46DCF17F7C2" name="Pelanggan">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:44:50 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Pelanggan" id="37153300-6867-4972-1E2A-12A3AF9CB183">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:44:58 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="3E49EDFF-D615-7A65-5ED1-75CECB3A5BCA">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:45:18 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat" id="9486A8B6-D600-9234-AA56-A322A2280FC6">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:45:44 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_Kontak" id="3556DC71-77C9-BE34-C430-95829A11053E">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:46:07 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6F55D34-5E27-98FF-9AAF-B61E196863C5" name="Pelanggan PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 05:45:16 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37153300-6867-4972-1E2A-12A3AF9CB183</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="06897D24-7E0B-295A-6E08-D8C22FA5D7C5" name="No_Kontak">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-10-21 06:02:44 UTC</createdTime>
+<ownerDesignName>DataSepatu</ownerDesignName>
+<engineerTo>
+<item key="4B044187-EE88-FA63-192D-A14E8907D56B" value="true"/>
+</engineerTo>
+<newElementsIDs>3556DC71-77C9-BE34-C430-95829A11053E</newElementsIDs>
+<usedAttributes>
+<attributeRef>3556DC71-77C9-BE34-C430-95829A11053E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
