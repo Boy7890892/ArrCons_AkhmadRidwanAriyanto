@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFF51694-5AA3-9AFD-4434-7113B15F687F" name="customers">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:10:19 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cust_id" id="B1D6550D-5DED-C2E7-0FF3-E12D3372F6C2">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:31:30 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_name" id="0BDA0D38-E253-796E-87F8-36E50ED93DAA">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:12:48 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="82B37C6E-31EF-2163-3C74-C70FDFE7C0C3">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:13:07 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="place_of_birth" id="FCF1A45C-491A-6B59-2DB5-9CCF8A40BB63">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:13:27 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_of_birth" id="5963E74B-6C2D-0145-720B-B6472B5BE939">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:13:43 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact_number" id="11035A4C-1224-15ED-4AB4-23D1B6D60DC3">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:14:07 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9B01BB74-529E-45EB-854D-BA24DF41C5E5">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:14:21 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="530BB921-BCAA-7E65-2C4C-A1EDA0259D6D" name="customers PK">
+<createdBy>Mas Ridwan</createdBy>
+<createdTime>2025-11-04 04:12:17 UTC</createdTime>
+<ownerDesignName>Pertemuan6</ownerDesignName>
+<engineerTo>
+<item key="B8907B1E-4507-2CD6-4CBB-0C5A53192328" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1D6550D-5DED-C2E7-0FF3-E12D3372F6C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
