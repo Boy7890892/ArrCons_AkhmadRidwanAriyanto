@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="basis data" id="81A75936-6857-DC61-F326-75CEB0A1D0A4" version="3.5">
-<createdBy>Mas Ridwan</createdBy>
-<createdTime>2025-10-14 04:03:50 UTC</createdTime>
-<ownerDesignName>basis data</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>81A75936-6857-DC61-F326-75CEB0A1D0A4</designId>
-</OSDM_Design>
